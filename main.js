@@ -33,7 +33,7 @@ function isElementInViewport(el) {
     );
 }
 
-datePickerId.min = new Date().toISOString().split("T")[0];
+//datePickerId.min = new Date().toISOString().split("T")[0];
 
 function toggle_visibility() {
       document.getElementById('team').classList.toggle("team-active");
